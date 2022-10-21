@@ -1,0 +1,120 @@
+html{
+    height : 100%;
+}
+body{
+    height : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{    
+    width : 40px;
+    height : 40px;
+    margin : 2px;
+    border : black 2px solid;
+    border-radius: 8px;
+    font-size : 30px;
+    font-weight: bold;
+    background-color: yellow;
+    color : black;
+}
+button:active{    
+    background-color: green;
+    color : gold;
+}
+#contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #09f088fe;
+    padding : 10px 20px 20px 20px;
+    border : #08ba2b 3px solid;
+    border-radius: 10px;
+}
+#head{
+    display :flex;
+    align-items: center;
+}
+#title{
+    font-size: 40px;
+    color : black;
+    margin : 10px 5px;
+}
+#formula-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width : 156px;
+    min-height: 80px;
+    background-color: white;
+    border : #0ba8ec 2px solid;
+    border-radius: 8px;
+    margin-bottom : 10px;
+    padding : 10px;
+    text-align: right;
+    vertical-align: bottom;
+}
+#history{
+    width : 156px;
+    word-wrap: break-word;
+    font-size : 15px;
+    color : #596270;
+    margin: 0;
+}
+#formula{
+    width : 156px;
+    word-wrap: break-word;
+    font-weight: bold;
+    font-size : 20px;
+    color : black;
+    margin: 0;
+}
+#button-group{
+    display: flex;
+}
+#backspace{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#line{
+    display: flex;
+    flex-direction: column;
+}
+#equal{
+    height : 128px;
+}
+#profile-img{
+    width : 50px;
+    height : 50px;
+    margin : 10px 3px;
+    border-radius: 10px;
+}
+#backspace-img{    
+    width : 30px;
+    height : 30px;
+}
+#how-to-use{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 332px;
+    height: 200px;
+    margin : 10px;
+    border: black 4px solid;
+    background-color: white;
+    color : black;
+    border-radius: 10px;
+}
+#how-to-use-title{
+    margin : 10px;
+    text-align: center;
+}
+#how-to-use-content{
+    width : 300px;
+    margin : 0;
+    font-size: 18px;
+    
+}
